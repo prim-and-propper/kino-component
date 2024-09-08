@@ -20,6 +20,8 @@ defmodule KinoComponent.MixProject do
   defp deps do
     [
       {:kino, "~> 0.14"},
+      {:phoenix_html, "~> 4.1"},
+      {:phoenix_live_view, "~> 0.20.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
