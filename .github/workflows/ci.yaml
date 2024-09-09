@@ -1,0 +1,24 @@
+name: ci
+
+on:
+    - push
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4.1.7
+
+            - uses: erlef/setup-beam@v1.18.1
+
+              with:
+                  elixir-version: 1.17.x
+
+                  otp-version: 27.x
+
+            - run: mix deps.get
+
+            - run: MIX_ENV=test mix compile --warnings-as-errors
+
+            - run: mix test
