@@ -1,0 +1,23 @@
+# Components
+
+```elixir
+Mix.install({
+  {:phoenix_live_view, "~> 0.20"},
+  {:kino_component, "~> 0.1"}
+})
+```
+
+## Kinos
+
+### KinoComponent
+
+```elixir
+import Phoenix.Component, only: [link: 1, sigil_H: 2]
+
+assigns = %{text: "I'm a link!"}
+
+~H"""
+<.link><%= @text %></.link>
+"""
+|> KinoComponent.new()
+```
