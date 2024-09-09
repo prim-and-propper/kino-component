@@ -15,6 +15,7 @@ Mix.install([
 
 ## Examples
 
-After install this package in Livebook you can interactively experiment with Phoenix function components:
+After installing this package in Livebook you can interactively experiment with
+Phoenix function components:
 
 ![](.github/images/link.png)
