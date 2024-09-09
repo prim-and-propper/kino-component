@@ -22,3 +22,22 @@ jobs:
             - run: MIX_ENV=test mix compile --warnings-as-errors
 
             - run: mix test
+
+    release:
+        if: github.ref == 'refs/heads/main'
+
+        needs:
+            - test
+
+        permissions:
+            contents: write
+
+            pull-requests: write
+
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: googleapis/release-please-action@v4.1.3
+
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
