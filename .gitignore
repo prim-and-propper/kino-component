@@ -27,3 +27,6 @@ kino_component-*.tar
 
 # Ignore macOS directory config.
 .DS_Store
+
+# Ignore node_modules/.
+/node_modules/
