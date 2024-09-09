@@ -1,10 +1,10 @@
 # Components
 
 ```elixir
-Mix.install({
+Mix.install([
   {:phoenix_live_view, "~> 0.20"},
   {:kino_component, "~> 0.1"}
-})
+])
 ```
 
 ## Kinos
