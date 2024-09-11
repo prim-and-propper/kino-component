@@ -14,15 +14,7 @@ defmodule KinoComponent do
       |> KinoComponent.new()
   """
 
-  use Kino.JS
-
-  asset "main.js" do
-    """
-    export function init(ctx, html) {
-      ctx.root.innerHTML = html;
-    }
-    """
-  end
+  use Kino.JS, assets_path: Path.expand("./lib/assets")
 
   @doc """
   Creates a new kino displaying the given HEEx template.

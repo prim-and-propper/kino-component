@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.23.1"
+  },
+  "scripts": {
+    "build": "esbuild ./assets/main.js --bundle --outfile=./lib/assets/main.js --format=esm"
+  }
+}
