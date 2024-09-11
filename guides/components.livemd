@@ -3,7 +3,7 @@
 ```elixir
 Mix.install([
   {:phoenix_live_view, "~> 0.20"},
-  {:kino_component, "~> 0.1"}
+  {:kino_component, "~> 0.2"}
 ])
 ```
 
