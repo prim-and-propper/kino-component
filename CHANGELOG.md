@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/prim-and-propper/kino-component/compare/v0.1.0...v0.2.0) (2024-09-11)
+
+
+### Features
+
+* support client side JS events ([248dc4a](https://github.com/prim-and-propper/kino-component/commit/248dc4a1a9cd85de7ac6e6857b21a6af3a4a6eb7))
+
 ## 0.1.0 (2024-09-09)
 
 
