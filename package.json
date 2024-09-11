@@ -1,8 +1,12 @@
 {
+  "dependencies": {
+    "phoenix": "^1.7.14",
+    "phoenix_live_view": "^1.0.0-rc.6"
+  },
   "devDependencies": {
     "esbuild": "^0.23.1"
   },
   "scripts": {
     "build": "esbuild ./assets/main.js --bundle --outfile=./lib/assets/main.js --format=esm"
-  }
+  } 
 }
