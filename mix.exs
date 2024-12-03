@@ -25,7 +25,7 @@ defmodule KinoComponent.MixProject do
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:kino, "~> 0.14"},
       {:phoenix_html, "~> 4.1"},
-      {:phoenix_live_view, "~> 0.20", only: :test}
+      {:phoenix_live_view, "~> 1.0", only: :test}
     ]
   end
 
