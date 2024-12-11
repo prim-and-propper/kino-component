@@ -9,7 +9,7 @@ To bring KinoComponent to Livebook all you need to do is `Mix.install/2`:
 ```elixir
 Mix.install([
   {:kino_component, "~> 0.2"},
-  {:phoenix_live_view, "~> 0.20"}
+  {:phoenix_live_view, "~> 1.0"}
 ])
 ```
 
