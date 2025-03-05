@@ -23,7 +23,7 @@ defmodule KinoComponent.MixProject do
   defp deps do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:kino, "~> 0.14"},
+      {:kino, "~> 0.15"},
       {:phoenix_html, "~> 4.1"},
       {:phoenix_live_view, ">= 0.20.0 or < 2.0.0", only: :test}
     ]
