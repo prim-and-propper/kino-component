@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.3](https://github.com/prim-and-propper/kino-component/compare/v0.2.2...v0.2.3) (2026-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency phoenix to v1.7.20 ([#26](https://github.com/prim-and-propper/kino-component/issues/26)) ([8a5cba6](https://github.com/prim-and-propper/kino-component/commit/8a5cba6574c9bbf2864e2047673fd625662cf825))
+* **deps:** update dependency phoenix_live_view to v1.0.5 ([#30](https://github.com/prim-and-propper/kino-component/issues/30)) ([67258ba](https://github.com/prim-and-propper/kino-component/commit/67258baec718404651dfab7572ed13b5d7249238))
+
 ## [0.2.2](https://github.com/prim-and-propper/kino-component/compare/v0.2.1...v0.2.2) (2025-02-16)
 
 
