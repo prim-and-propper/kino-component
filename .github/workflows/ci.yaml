@@ -10,7 +10,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4.3.1
 
-            - uses: erlef/setup-beam@v1.20.4
+            - uses: erlef/setup-beam@v1.21.0
 
               with:
                   elixir-version: 1.17.x
