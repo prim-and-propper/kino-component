@@ -13,7 +13,7 @@ jobs:
             - uses: erlef/setup-beam@v1.24.1
 
               with:
-                  elixir-version: 1.17.x
+                  elixir-version: v1.20.4
 
                   otp-version: 27.x
 
