@@ -15,7 +15,7 @@ jobs:
               with:
                   elixir-version: v1.20.4
 
-                  otp-version: 27.x
+                  otp-version: 29.1.1
 
             - run: mix deps.get
 
